@@ -86,3 +86,28 @@ font-family: 'Yeseva One', cursive; */
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+/* ! SECTION MAIN SCREEN */
+
+.main-screen {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/section-01/background-01.jpg);
+    height: 707px;
+    object-fit: cover;
+}
+
+.main-screen__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-screen__title-text {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
