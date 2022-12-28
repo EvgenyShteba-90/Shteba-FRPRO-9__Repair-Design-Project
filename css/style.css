@@ -41,6 +41,7 @@ font-family: 'Yeseva One', cursive; */
     line-height: 15px;
     text-transform: uppercase;
     color: #E3B873;
+    cursor: pointer;
 }
 
 .list__item {
@@ -49,6 +50,7 @@ font-family: 'Yeseva One', cursive; */
     font-size: 11px;
     line-height: 15px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .header-list__active {
@@ -64,6 +66,7 @@ font-family: 'Yeseva One', cursive; */
     text-align: right;
     text-decoration-line: underline;
     color: #E3B873;
+    cursor: pointer;
 }
 
 .header__button-color {
@@ -71,6 +74,7 @@ font-family: 'Yeseva One', cursive; */
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     padding: 13px 33px;
+    cursor: pointer;
 }
 
 .header__button-text {
