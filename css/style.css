@@ -14,11 +14,13 @@ font-family: 'Yeseva One', cursive; */
 
 .link {
     text-decoration: none;
+    transition: all 0.3s ease-out;
 }
 
 .link:hover {
     text-decoration: underline;
     cursor: pointer;
+    transition: all 0.3s ease-in;
 }
 
 /* ! HEADER */
@@ -107,6 +109,7 @@ font-family: 'Yeseva One', cursive; */
 .button:hover {
     background-color: darkgrey;
     transition: all 0.2s ease-in;
+    transform: translate(5px);
 }
 
 /* ! SECTION MAIN SCREEN */
@@ -237,6 +240,7 @@ font-family: 'Yeseva One', cursive; */
     display: grid;
     grid-template-columns: 33% 67%;
     grid-template-rows: 1fr 1fr;
+    margin-top: 30px;
 }
 
 .project-parameter__title {
@@ -261,6 +265,11 @@ font-family: 'Yeseva One', cursive; */
 .slider__arrows {
     display: flex;
     align-items: center;
+    margin-top: 30px;
+}
+
+.slider__arrow {
+    transition: 0.5s;
 }
 
 .arrow__left {
@@ -269,6 +278,14 @@ font-family: 'Yeseva One', cursive; */
 
 .arrow__right {
     margin-left: 30px;
+}
+
+.arrow__left:hover {
+    transform: translate(-10px);
+}
+
+.arrow__right:hover {
+    transform: translate(10px);
 }
 
 .slider__dots {
@@ -281,6 +298,12 @@ font-family: 'Yeseva One', cursive; */
     height: 10px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+.slider__dot:hover {
+    background-color: #FFFFFF;
+    transition: all 0.3s ease-in;
 }
 
 .slider__dot-active {
@@ -322,4 +345,64 @@ font-family: 'Yeseva One', cursive; */
 
 .slider__img {
     object-fit: cover;
+}
+
+.slider__arrow,
+.slider__dot {
+    cursor: pointer;
+}
+
+/* ! ONLINE CONTROL */
+
+.online-control__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -330px;
+}
+
+.online-control__title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.online-control__cam-img {
+    display: flex;
+}
+
+.camera-image {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.online-control__video {
+    margin-top: 30px;
+}
+
+.video__play-button {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    top: -250px;
+}
+
+.online-control__play-button {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #E3B873;
+    box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+
+}
+
+.vector-play {
+    padding: auto;
 }
