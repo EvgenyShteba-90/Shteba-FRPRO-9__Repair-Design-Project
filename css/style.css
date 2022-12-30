@@ -10,6 +10,17 @@ font-family: 'Yeseva One', cursive; */
     margin: 0 auto;
 }
 
+/* ! LINK */
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 /* ! HEADER */
 
 .header {
@@ -191,7 +202,9 @@ font-family: 'Yeseva One', cursive; */
 /* ! SLIDER */
 
 .slider {
-    background: #131313;;
+    background: #131313;
+    padding-top: 80px;
+    padding-bottom: 420px;
 }
 
 .slider__wrapper {
@@ -267,9 +280,46 @@ font-family: 'Yeseva One', cursive; */
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: darkgray;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .slider__dot-active {
-    
+    background-color: #FFFFFF;
+}
+
+.projects__item {
+    list-style: none;
+}
+
+.list__projects {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-left: 0;
+}
+
+.project__item-link {
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.project__item-link-active {
+    text-decoration: underline;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.slider__img {
+    object-fit: cover;
 }
