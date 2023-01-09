@@ -37,6 +37,10 @@ font-family: 'Yeseva One', cursive; */
     transform: translate(5px);
 }
 
+.checkbox {
+    cursor: pointer;
+}
+
 /* ! HEADER */
 
 .header {
@@ -480,7 +484,7 @@ font-family: 'Yeseva One', cursive; */
     background: #E3B873;
     box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
     border-radius: 2px;
-    padding: 10px 76px;
+    padding: 12px 76px 7px 76px;
     transition: all 0.2s ease-in;
 }
 
@@ -624,7 +628,7 @@ font-family: 'Yeseva One', cursive; */
 .services__item {
     display: flex;
     align-items: center;
-    margin-left: 160px;
+    margin-left: 250px;
     margin-top: 100px;
 }
 
@@ -635,6 +639,7 @@ font-family: 'Yeseva One', cursive; */
 
 .request__services {
     background-image: url(../img/types-of-repair/services/back.png);
+    background-size: 100% no-repeat;
 }
 
 .service__number-color {
@@ -653,4 +658,112 @@ font-family: 'Yeseva One', cursive; */
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.service__description {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+    margin-left: 20px;
+}
+
+.request-form {
+    /* width: 506px; */
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+.request-form__paragraph {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 30px 105px;
+}
+
+.request-form__input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 45px 30px 45px;
+}
+
+.request-form__label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.request-form__input {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #131313;
+}
+
+.request-form__checkbox {
+    display: flex;
+    margin-left: 45px;
+    margin-top: -30px;
+}
+
+.request-form__checkbox-info {
+    margin-left: 10px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.request-form__button-color {
+    margin: 40px 50px 30px 250px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    padding: 10px 30px 7px 30px;
+}
+
+.request-form__button-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pig-image {
+    margin-top: -130px;
+    margin-right: 150px;
+}
+
+.pig-image__wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pig-image__description {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
