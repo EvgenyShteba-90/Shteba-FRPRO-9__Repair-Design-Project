@@ -132,8 +132,10 @@ font-family: 'Yeseva One', cursive; */
 
 .main-screen {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/section-01/background-01.jpg);
-    height: 707px;
+    background-repeat: no-repeat;
+    background-size: 100%;
     object-fit: cover;
+    padding-bottom: 150px;
 }
 
 .main-screen__wrapper {
@@ -639,7 +641,7 @@ font-family: 'Yeseva One', cursive; */
 
 .request__services {
     background-image: url(../img/types-of-repair/services/back.png);
-    background-size: 100% no-repeat;
+    background-repeat: no-repeat;
 }
 
 .service__number-color {
@@ -766,4 +768,98 @@ font-family: 'Yeseva One', cursive; */
     line-height: 26px;
     color: #E3B873;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+/* ! FANTASIES */
+
+.fantasies {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/fantasies/background.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: 200px;
+    background-size: 100%;
+}
+
+.fantasies__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fantasies__selector {
+    margin-top: 120px;
+}
+
+.selector__title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+
+margin-left: 35px;
+}
+
+.selector__list {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.selector__item {
+    margin-bottom: 15px;
+}
+
+.selector__link {
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.selector__link-active {
+    text-decoration: underline;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #E3B873;
+}
+
+/* .fantasies__images {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+} */
+
+.fantasies__images {
+    margin-left: 70px;
+}
+
+.fantasies__images-clock {
+    width: 354px;
+    height: 557.88px;
+    margin-top: -50px;
+}
+
+.fantasies__images-chair {
+    width: 354px;
+    height: 349.37px;
+    margin-top: 40px;
+}
+
+.fantasies__images-sofa {
+    width: 354px;
+    height: 275px;
+    margin-top: -110px;
+}
+
+.fantasies__images-flower {
+    width: 354px;
+    height: 624.88px;
+    margin-top: 40px;
 }
