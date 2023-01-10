@@ -501,20 +501,13 @@ font-family: 'Yeseva One', cursive; */
     color: #FFFFFF;
 }
 
-.form__checkbox {
+.online-control__checkbox {
     display: flex;
     justify-content: center;
     margin-top: 25px;
 }
 
-/* Как сделать галочку оранжевого цвета */
-.checkbox-color {
-    margin-right: 10px;
-    background: #E3B873;
-    border-radius: 1px;
-}
-
-.checkbox__info {
+.online-control__text {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
@@ -673,7 +666,6 @@ font-family: 'Yeseva One', cursive; */
 }
 
 .request-form {
-    /* width: 506px; */
     background: #131313;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
     margin-top: 120px;
@@ -719,10 +711,10 @@ font-family: 'Yeseva One', cursive; */
 .request-form__checkbox {
     display: flex;
     margin-left: 45px;
-    margin-top: -30px;
+    margin-top: -5px;
 }
 
-.request-form__checkbox-info {
+.request-form__text {
     margin-left: 10px;
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -1034,7 +1026,7 @@ font-family: 'Yeseva One', cursive; */
     margin-top: 30px;
 }
 
-.any-question__checkbox-info {
+.any-question__text {
     margin-left: 20px;
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -1066,7 +1058,7 @@ font-family: 'Yeseva One', cursive; */
 /* ! LOCATION */
 
 .location {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/location/background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url(../img/location/background.png);
     background-repeat: no-repeat;
     object-fit: cover;
     margin-top: -250px;
@@ -1105,7 +1097,7 @@ font-family: 'Yeseva One', cursive; */
 
 .location__map {
     margin-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 /* ! FOOTER */
@@ -1192,3 +1184,34 @@ font-family: 'Yeseva One', cursive; */
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+/* ! ЧЕКБОКСЫ */
+
+.label {
+    cursor: pointer;
+}
+
+.checkbox {
+    display: none;
+}
+
+.empty {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+
+.empty::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+
+.checkbox:checked + .empty::before{
+    opacity: 1;
+}
+
+/* ! MEDIA */
