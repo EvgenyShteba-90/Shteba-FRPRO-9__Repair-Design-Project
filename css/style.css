@@ -1214,44 +1214,5 @@ font-family: 'Yeseva One', cursive; */
     opacity: 1;
 }
 
-/* ! MEDIA */
+/* ! MEDIA СОЗДАЛ ОТДЕЛЬНЫЙ ФАЙЛ CSS НАЗВАНИЕ MEDIA*/
 
-@media only screen and (max-width: 375px) {
-
-    .container {
-        width: 375px;
-        margin: 0 auto;
-    }
-
-    /* ! HEADER */
-
-    header .header__inner, 
-    .header__button {
-        display: none;
-    }
-    .header-logo {
-        margin-left: 20px;
-    }
-    .header__telephone {
-        margin-right: 20px;
-    }
-
-    /* ! MAINSCREEN */
-
-    .main-screen__wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .main-screen__title {
-        font-family: 'Yeseva One';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 23px;
-        line-height: 31px;
-        text-transform: uppercase;
-        color: #FFFFFF;
-    }
-
-}

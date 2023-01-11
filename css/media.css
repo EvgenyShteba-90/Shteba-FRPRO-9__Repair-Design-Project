@@ -146,6 +146,190 @@
         grid-template-columns: 1fr;
     }
     .form__input-wrapper {
-        
+        width: 330px;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    .form__label {
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .form__input {
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        background-color: #131313;
+    }
+    .form__button-color {
+        width: 330px;
+        position: absolute;
+        top: 1765px;
+        left: 19px;
+    }
+    .online-control__checkbox {
+        margin-top: 20px;
+        padding-bottom: 80px;
+    }
+    .online-control__text {
+        font-size: 10px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    /* ! TYPES OF REPAIR */
+
+    .types-of-repair {
+        margin-top: 50px;
+    }
+    .types-of-repair__title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .example-cards {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .example-cards__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .example-card {
+        margin-left: 10px;
+    }
+    .example-card__image {
+        width: 330px;
+    }
+    .example-card__description {
+        margin-left: 0px;
+        width: 270px;
+        margin-bottom: 40px;
+    }
+    .example-card__title {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .repair-list__item {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .example-card__price {
+        width: 190px;
+        margin-top: 80px;
+    }
+    .request {
+        display: none;
+    }
+    .pig-image {
+        display: none;
+    }
+    .selector__list,
+    .fantasies__images {
+        display: none;
+    }
+    .fantasies {
+        background-image: none;
+        margin-top: -10px;
+    }
+    .fantasies__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .selector__title {
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 0px;
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .selector__title::after {
+        content: "";
+        display: block;
+        width: 340px;
+        height: 242px;
+        background-image: url(../img/fantasies/background.png);
+        background-size: 100% 100%;
+        object-fit: fill;
+        margin-top: 30px;
+        position: relative;
+        z-index: 3;
+    }
+
+    /* ! OUR CLIENTS */
+
+    .our-clients__client-cards,
+    .our-clients__title,
+    .our-clients__icon,
+    .our-clients__statistic,
+    .our-clients__back,
+    .client__space-and-time {
+        display: none;
+        margin: 0;
+    }
+    .our-clients {
+        margin-top: -550px;
+    }
+    .any-question-form {
+        margin-top: 0px;
+        padding-top: 100px;
+        z-index: 2;
+        max-width: 375px;
+    }
+    .any-question__title {
+        margin-top: 70px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .input-contacts__wrapper,
+    .any-question__input-question {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-contacts__wrapper {
+        margin-left: 20px;
+    }
+    .input-contacts__input,
+    .input-question__input {
+        font-size: 14px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    .input-contacts__label,
+    .input-question__label {
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .input-contacts__input {
+        width: 310px;
+    }
+    .input-question__input {
+        width: 310px;
+    }
+    .any-question__input-question {
+        margin-top: 40px;
+    }
+    .input-contacts__input-wrapper {
+        margin-top: 40px;
+    }
+    .input-contacts__input {
+        padding-right: 0px;
+    }
+    .any-question__checkbox {
+        margin-left: -70px;
+    }
+    .any-question__text {
+        margin-left: 0px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .any-question__button-color {
+        width: 320px;
     }
 }
+
