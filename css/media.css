@@ -1,0 +1,151 @@
+/* ! MEDIA */
+
+@media only screen and (max-width: 375px) {
+
+    .container {
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    /* ! HEADER */
+
+    header .header__inner, 
+    .header__button {
+        display: none;
+    }
+    .header-logo {
+        margin-left: 20px;
+    }
+    .header__telephone {
+        margin-right: 20px;
+    }
+
+    /* ! MAINSCREEN */
+
+    .main-screen {
+        background-size: 100% 100%;
+        object-fit: cover;
+        padding-bottom: 50px;
+    }
+    .main-screen__title-text {
+        font-size: 23px;
+        line-height: 31px;
+        margin-left: -40px;
+    }
+    .title-text__color-orange {
+        font-size: 23px;
+        line-height: 31px;
+    }
+    .main-screen__title {
+        margin-top: 50px;
+    }
+    .main-screen__paragraph-text {
+        font-size: 14px;
+        line-height: 19px;
+        margin-left: -20px;
+        margin-bottom: 40px;
+    }
+    .main-screen__button {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-screen__button-calc,
+    .main-screen__button-submit {
+        margin-bottom: 20px;
+        width: 335px;
+        height: 51px;
+    }
+
+    /* ! SLIDER */
+
+    .slider__arrows {
+        display: none;
+    }
+    .slider-desktop {
+        display: none;
+    }
+    .slider__completed-projects {
+        margin-left: 20px;
+    }
+    .slider__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .slider__title {
+        font-size: 22px;
+        line-height: 38px;
+        margin-left: 100px;
+        margin-top: -20px;
+    }
+    .slider {
+        padding-top: 0px;
+    }
+    .sleder__paragraph {
+        font-size: 10px;
+        line-height: 17px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .project-parameters {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .project-parameter__title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .project-parameter__description {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    /* ! ONLINE CONTROL */
+
+    .online-control {
+        background: #131313;
+    }
+    .online-control__video {
+        width: 340px;
+        height: 207px;
+        margin-top: 40px;
+    }
+    .video-img {
+        width: 340px;
+        height: 207px;
+    }
+    .video__play-button {
+        top: -130px;
+    }
+    
+    .online-control__play-button {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .vector-play {
+        width: 50%;
+        height: 50%;
+        margin-left: 5px;
+    }
+    .online-control__break-line {
+        margin-top: 40px;
+    }
+    .online-control__paragraph {
+        font-size: 9px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin: 20px;
+    }
+    .form__inner {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .form__input-wrapper {
+        
+    }
+}
